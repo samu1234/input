@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><center>ETAMAX 2K17</center></h1>
+</div>
+
+<div class="row">
+
+<div class="col-3 col-m-3 menu">
+  <ul>
+    <li>ABOUT</li>
+    <li>EVENTS</li>
+    <li>SCHEDULE</li>
+    <li>GALLERY</li>
+    <li>CONTACT</li>
+  </ul>
+</div>
+
+<div class="col-6 col-m-9">
+  <h1>ETAMAX</h1>
+  <p>The much awaited fest is back with a bang! Etamax is the annual techno-cultural festival of F.C.R.I.T. Vashi. Derived from Eta (Efficiency) and Max(Maximum), this fest promises to bring output the full potential of every paricipant
+The theme for ETAMAX 2k17 is "Made in India-100% shudh", which proudly celebrates and promotes the culture, background and values as Indians. Over 1500 students actively participate from different parts of the country. It hosts over 25 technical workshops and events like singing and dancing competitions, debates, graffiti, enterpreneurship, beatboxing among several others.</p>
+</div>
+
+<div class="col-3 col-m-12">
+  
+</div>
+
+</div>
+
+<div class="footer">
+  <p>Copyright &copy; etamax.com </p>
+</div>
+
+</body>
+</html>
